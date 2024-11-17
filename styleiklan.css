@@ -13,7 +13,7 @@
 .iklan {
     width: 700px;
     height: 350px;
-    background-image: url(/img/popup.jpg);
+    background-image: url(img/popup.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
