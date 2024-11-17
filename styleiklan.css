@@ -16,7 +16,6 @@
     background-image: url(/img/popup.jpg);
     background-position: center;
     background-size: cover;
-    background-color: blue;
     position: relative;
     box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.282);
 }
