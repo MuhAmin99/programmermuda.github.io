@@ -294,7 +294,10 @@ footer h1 {
     color: #fff;
     font-family: var(--main-font);
     text-align: center;
-    margin-top: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 /* Responsif style */
