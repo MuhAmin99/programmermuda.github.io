@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleiklan.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <title>Homepage</title>
+</head>
+<body>
+    <!-- popUp awal muncul ketika website dibuka -->
+    
+    <input type="checkbox" id="check">
+    
+    <div id="container-iklan" >
+        <div class="iklan">
+            <label for="check" class="close-check">Close</label>
+        </div>
+    </div>
+    
+    <!-- akhir PopUP -->
+
+    <header>
+        <!-- class untuk logo -->
+        <div class="logo"><a href="/">Programmer<span>Muda</span></a></div>
+
+        <!-- class untuk checkbox  -->
+         <input type="checkbox" id="open-menu">
+         <label for="open-menu" class="close-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+         </label>
+
+         <!-- list item menu -->
+          <nav>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portofolio</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">About Me</a></li>
+            </ul>
+          </nav>
+    </header>
+<!-- end of header -->
+    
+    <section class="main-banner">
+        <div class="content-banner">
+            <h1>Programmer Muda</h1>
+            <p>Belajar Web Programming Lebih mudah bersama Programmer Muda</p>
+            <button type="button" class="btn-banner"><a href="#">Gabung Kelas Online</a></button>
+        </div>
+    </section>
+
+    <!-- end off banner -->
+
+    <main id="content-utama">
+        <div class="container-mainContent">
+            <div class="content-html">
+                <img src="/img/icon-web/html-5.png" alt="icon HTML 5">
+                <h2>HyperText Markup Language</h2>
+                <p>Digunakan untuk membuat sebuah struktur dan konten dari sebuah halaman web. Seperti, teks, gambar,link dan lainnya.</p>
+            </div>
+            <div class="content-Css">
+                <img src="/img/icon-web/css.png" alt="icon CSS">
+                <h2>Cascading StyleSheet</h2>
+                <p>CSS digunakan untuk mengatur tampilan dan tata letak dari elemen-elemen HTML, termasuk warna, font, ukuran, margin, dan animasi.</p>
+            </div>
+            <div class="content-Javascript">
+                <img src="/img/icon-web/js-file.png" alt="icon JavaScript">
+                <h2>JavaScript</h2>
+                <p>JavaScript adalah bahasa pemrograman yang digunakan untuk menambahkan interaktivitas dan logika pada halaman web, seperti tombol klik, validasi form, dan efek animasi.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="content-footer">
+            <h2>sosmed</h2>
+            <ul class="footer-list">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Pinterest</a></li>
+                <li><a href="#">Youtube</a></li>
+            </ul>
+        </div>
+        <h1>Built with love 💖 by Programmer Muda 2024</h1>
+    </footer>
+
+    
+</body>
+</html>

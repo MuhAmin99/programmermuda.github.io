@@ -1,0 +1,75 @@
+#container-iklan {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.274);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iklan {
+    width: 700px;
+    height: 350px;
+    background-image: url(/img/popup.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: blue;
+    position: relative;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.282);
+}
+
+#check {
+    display: none;
+}
+
+.close-check {
+    position: absolute;
+    z-index: 9999;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+    color: #0e0707;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 5px 7px;
+}
+
+#check:checked ~ .close-check {
+    display: none;
+}
+
+#check:checked ~ #container-iklan {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .iklan {
+        max-width: 500px;
+        height: 250px;
+    }
+    
+}
+
+@media screen and (max-width: 530px) {
+    .iklan {
+        max-width: 350px;
+        height: 180px;
+    }
+
+    .close-check {
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    .iklan {
+        max-width: 250px;
+        height: 120px;
+    }
+    
+}
